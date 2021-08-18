@@ -1,0 +1,9 @@
+ventory:
+  plugin: SimpleInventory
+  options:
+      host_file: "C:/practica/hosts.yaml"
+      group_file: "C:/practica/groups.yaml"
+runner:
+  plugin: threaded
+  options:
+    num_workers: 20
