@@ -1,0 +1,8 @@
+---
+  R1:
+    hostname: 'sandbox-nxos-1.cisco.com'
+    port: '22'
+    username: 'admin'
+    password: 'Admin_1234!'
+    groups:
+      - group_nxos
