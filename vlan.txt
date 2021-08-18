@@ -1,0 +1,32 @@
+vlan 41
+name test41
+exit
+vlan 42
+name test42
+exit
+vlan 43
+name test43
+exit
+interface vlan 41
+description config con Nornir
+ip add 192.168.10.1/24
+exit
+interface vlan 42
+description config con Nornir
+ip add 192.168.11.1/24
+exit
+interface vlan 43
+description config con Nornir
+ip add 192.168.12.1/24
+exit
+interface ethernet 1/32
+sw mode access
+sw access vlan 10
+exit
+interface ethernet 1/33
+sw mode access
+sw access vlan 34
+exit
+interface ethernet 1/35
+sw mode access
+sw access vlan 12
